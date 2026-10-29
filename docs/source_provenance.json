@@ -1,0 +1,17 @@
+{
+  "origin": "AliceLab private research workspace",
+  "origin_revision": "955383f",
+  "derived_modules": [
+    {
+      "public_path": "src/alicelab/changepoints.py",
+      "original_path": "experiments/factor_stability/E4c_bocpd/offline_detector.py",
+      "original_sha256": "50f737ca8d5a24ab73cbc8b3217e7529325fcf5f5e70474cf670fc9ab806c4b4"
+    }
+  ],
+  "release_changes": [
+    "Explicit input validation",
+    "Forward min_seg correctly",
+    "CUSUM includes the first observation",
+    "Standalone package; no original datasets or results"
+  ]
+}

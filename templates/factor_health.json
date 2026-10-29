@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "recipe": "factor_health",
+  "hypothesis": "Diagnose changes in a predeclared factor IC series; no trading claim.",
+  "source_type": "user_supplied",
+  "seed": 20260910,
+  "inputs": {"series": "../data/factor_ic.csv"},
+  "parameters": {"column": "ic", "min_seg": 26, "lam": 0.004, "k_max": 4, "standardize": true}
+}

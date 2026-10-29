@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "recipe": "capability_price",
+  "hypothesis": "Describe price changes within one comparable capability benchmark version.",
+  "source_type": "user_supplied",
+  "seed": 20260910,
+  "inputs": {"panel": "../data/model_month.csv"},
+  "parameters": {"thresholds": [10, 20, 40], "reference": 10, "min_models": 4}
+}
