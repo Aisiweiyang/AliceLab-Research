@@ -1,5 +1,7 @@
 # AliceLab Research
 
+作者：[Aisiweiyang](https://github.com/Aisiweiyang)
+
 从 Alice 研究项目中整理出来的 Python 工具，主要用于因子诊断、事件研究和大模型价格分析。可以单独安装，不需要 Alice 量化系统的代码或数据库。
 
 目前有三个研究模板：
